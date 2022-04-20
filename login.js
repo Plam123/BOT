@@ -1,7 +1,7 @@
 const fs = require("fs");
 const login = require("fca-horizon-remake");
 
-var credentials = {email: "phuonglam201120062@gmail.com", password: "Plam1234@"}; // thông tin tk
+var credentials = {email: "", password: ""}; // thông tin tk
 
 login(credentials, (err, api) => {
     if(err) return console.error(err);
