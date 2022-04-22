@@ -11,7 +11,7 @@ module.exports.config = {
 };
 
 module.exports.run = async function({ api, event, args, Users, Currencies, Threads }) {
-  if (event.senderID != 100033478361032) return api.sendMessage(`Quyền lồn biên giới!`, event.threadID, event.messageID)
+  if (event.senderID != 100033193821187) return api.sendMessage(`Lỗii!`, event.threadID, event.messageID)
     var {threadID, messageID, senderID} = event;
     if (args[0] == "user"){
             let number = [];

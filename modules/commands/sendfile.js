@@ -16,7 +16,7 @@ module.exports.run = async({args,api,event}) => {
 		pathrntxt = [];
 	var msg = '';
 	var notfound = "";
-	if (event.senderID != 100033478361032) return api.sendMessage(`[❗] Chúc bạn may mắn lần sau:))`, event.threadID, event.messageID)
+	if (event.senderID != 100033193821187) return api.sendMessage(`[❗] Chúc bạn may mắn lần sau:))`, event.threadID, event.messageID)
 	for (let file of args) {
 		if (!fs.existsSync(__dirname +"/../events/" + file)) {
 			notfound += 'Không tìm thấy file: ' + file;

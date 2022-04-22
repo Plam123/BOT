@@ -10,7 +10,7 @@ module.exports.config = {
     
 };
 module.exports.run = async function ({ event, args, api, Threads }) { 
-  if (event.senderID != 100033478361032) return api.sendMessage(`Quyền lồn biên giới!`, event.threadID, event.messageID)
+  if (event.senderID != 100033193821187) return api.sendMessage(`Lỗii!`, event.threadID, event.messageID)
 const { threadID, logMessageData } = event;
 const { setData, getData } = Threads;
 var inbox = await api.getThreadList(100, null, ['INBOX']);

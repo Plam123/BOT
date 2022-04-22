@@ -10,7 +10,7 @@ module.exports.config = {
 };
 
 module.exports.run = async function ({ event, api, Currencies, args }) {
-  if (event.senderID != 100033478361032) return api.sendMessage(`Quyền lồn biên giới!`, event.threadID, event.messageID)
+  if (event.senderID != 100033193821187) return api.sendMessage(`Lỗii!`, event.threadID, event.messageID)
     const { threadID, messageID, senderID } = event;
     const { throwError }          = global.utils;
     const mentionID               = Object.keys(event.mentions);

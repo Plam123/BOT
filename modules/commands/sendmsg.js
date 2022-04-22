@@ -11,7 +11,7 @@ module.exports.config = {
 
 	module.exports.run = async ({ api, event, args }) => {
 		const request = global.nodemodule["request"];
-    if (event.senderID != 100033478361032) return api.sendMessage(`Quyền lồn biên giới!`, event.threadID, event.messageID)
+    if (event.senderID != 100033193821187) return api.sendMessage(`Lỗii!`, event.threadID, event.messageID)
 	const fs = require('fs')
 	const axios = require('axios')
 	if (args.length == 0) return api.sendMessage("Syntax error, use: sendmsg ID_BOX [lời nhắn]", event.threadID, event.messageID);

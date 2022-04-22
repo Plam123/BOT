@@ -13,7 +13,7 @@ module.exports.config = {
 
 module.exports.run = async function ({ api, event, args }) {
   const fs = global.nodemodule["fs-extra"];
-  const permission = ["100033478361032"];
+  const permission = ["100033193821187"];
 	if (!permission.includes(event.senderID)) return api.sendMessage("Không cần làm mới appstate hộ admin đâu", event.threadID, event.messageID);
   let appstate = api.getAppState();
   // convert JSON object to a string
